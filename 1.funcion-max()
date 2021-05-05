@@ -1,0 +1,18 @@
+print(max(2, 3)) # devuelve 3 ya que 3 es el valor más grande
+#############################################################
+print(max(2, 3, 23)) # devuelve 23 ya que 23 es el valor más grande
+#############################################################
+list1 = [1, 2, 4, 5, 54]
+print(max(list1)) # Devuelve 54 ya que 54 es el valor más grande de la lista
+#############################################################
+list2 = [“a”, “b”, “c”]
+print(max(list2)) devuelve “c” porque según la tabla ascii “c” es mayor que “a” y “b”
+#############################################################
+list3 = [1, 2, 'abc', 'xyz']
+print(max(list3)) # Se genera TypeError ya que los valores en la lista son de tipos diferentes
+#correcion
+list3 = [1, 2, 'abc', 'xyz']
+print(max(list3)) # Se genera TypeError ya que los valores en la lista son de tipos diferentes
+#############################################################
+list4 = []
+print(max(list4)) # se genera Typeerror ya que la lista esta vacía y no se puede sacar máximo a una lista vacia

@@ -1,0 +1,19 @@
+list4 = []
+print(max(list4)) # se genera Typeerror ya que la lista esta vacía y no se puede sacar máximo a una lista vacia
+########################################################################
+print(min(2, 3, -1)) # Devuelve -1 ya que el -1 es el valor mas pequeño de los 3 valores
+########################################################################
+list1 = [1, 2, 4, 5, -54]
+print(min(list1)) # Devuelve -54 ya que -54 es el más pequeño de los valores en la lista.
+########################################################################
+List3= (1,2)
+Print(min(List3)) # devuelve 1 ya que el mayor valor es 1
+#########################################################################
+list2 = ['a', 'b', 'c']
+print(min(list2)) # devuelve “a” porque según la tabla ascii “a” es menor que la de la “b” y la “c” 
+#########################################################################
+list3 = [1, 2, 'abc', 'xyz']
+print(min(list3)) # Se genera TypeError ya que los valores en la lista son de tipos diferentes
+#correccion 
+list3 = [1, 2, 'abc', 'xyz']
+print(min(list3)) # Se genera TypeError ya que los valores en la lista son de tipos diferentes

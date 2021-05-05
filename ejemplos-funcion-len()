@@ -1,0 +1,9 @@
+#ejemplo 1
+a=("hola")
+print(len(a))
+#ejemplo2
+list1 = [4,6,8,5,9]
+print(len(list1))
+#ejemplo3
+a=(123)
+print(len(a))

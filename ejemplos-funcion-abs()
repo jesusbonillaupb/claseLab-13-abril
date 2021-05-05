@@ -1,0 +1,9 @@
+#ejemplo1
+a=-5
+print(abs(a))
+#ejemplo2
+a=2.5
+print(abs(a))
+#ejemplo3
+a=4-8
+print(abs(a))

@@ -1,0 +1,8 @@
+print(divmod(5,2)) # muestra (2,1)
+##############################################
+print(divmod(13.5,2.5)) # muestra(5,1)
+##############################################
+q,r = divmod(13.5,2.5)  # Asigna q=cociente & r=resto
+print(q) # muestra 5.0 porque math.floor(13.5/2.5) = 5.0
+print(r) # muestra 1.0 debido a que corresponde al residuo de la división entre 13.5 y 2.5
+

@@ -1,0 +1,12 @@
+#ejemplo1
+list1=[1,2,3,4,5]
+list1.remove(2)
+print(list1)
+#ejemplo2
+list1=["rojo","azul","verde","amarillo"]
+list1.remove("verde")
+print(list1)
+#ejemplo3
+list1=["a","d”,“c” ]
+list1.remove("d")
+print(list1)
